@@ -1,0 +1,14 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    background-color: gray
+    
+    
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px; /* Space between cards */
+   position: 
