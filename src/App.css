@@ -1,2 +1,86 @@
+.card-container {
+    display: flex;
+    position: center;
+    flex-direction: row;
+    gap: 50px;
+    overflow-y: auto;
+    height: 25vh;
+    width:70vw;
+    margin-left: 30vw;
+    margin-top: 5vh; 
+     
+}
 
+.app-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+    background-position: center;
+    flex-direction: column; 
+    margin: 0 auto;
+    background-image: url("src/assets/background.jpg") ; 
+      
+}
 
+.list-container{
+  color:black;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    width: 50vw;
+    height:auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    margin-left:30vw;
+    border-radius: 20px; 
+    overflow-y: auto; 
+}
+
+.navigation-panel{
+    display:flex;
+    background: linear-gradient(to bottom right, #fef08a, #fdba74);
+    flex-direction: column;
+    height: 100vh;
+    width:20%;
+    position: fixed;
+    top: 0;  
+    left:0;
+   
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    font-size: larger bold;
+    font-style: normal;
+    color: black ;
+    justify-content: center;
+    
+}
+
+.list-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style the table headers */
+th {
+    width: 120px;
+    padding-top:25px;
+    padding-bottom:30px;
+    padding: 10px;
+    text-align: center;
+    
+  }
+
+/* Style the table body cells */
+td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: solid white;
+}

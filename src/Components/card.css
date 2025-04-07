@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  border: none;
+  border-radius: 20px;
+  width: 400px;
+  height: 230px;
+  background: linear-gradient(to bottom right, #fef08a, #fdba74);
+  font-size: larger;
+  justify-content: center;
+  color:black;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+
+
+  /* 3D effect */
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.2),
+    0 8px 20px rgba(0, 0, 0, 0.15);
+
+  transform: perspective(1000px) rotateX(3deg) rotateY(2deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1.03);
+  box-shadow: 
+    0 6px 16px rgba(0, 0, 0, 0.25),
+    0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+  
