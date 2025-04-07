@@ -27,10 +27,10 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ yes] Multiple filters can be applied simultaneously
-- [yes ] Filters use different input types
+- [ ] Multiple filters can be applied simultaneously
+- [ ] Filters use different input types
   - e.g., as a text input, a dropdown or radio selection, and/or a slider
-- [yes ] The user can enter specific bounds for filter values
+- [ ] The user can enter specific bounds for filter values
 
 The following **additional** features are implemented:
 

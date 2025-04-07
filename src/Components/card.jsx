@@ -9,4 +9,4 @@ const Card = ({stat, title}) => {
   );
 };
 
-export defaul
+export default Card;
