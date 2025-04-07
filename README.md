@@ -2,9 +2,9 @@
 
 Submitted by: **Maliha Hossain**
 
-This web app: **insert description**
+This web app: **shows a list of weather forecast for the next 15 days**
 
-Time spent: **5** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
@@ -52,7 +52,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Putting the API key in env isn't working. I have to put it directly to the call:(
 
 ## License
 

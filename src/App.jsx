@@ -18,7 +18,7 @@ function App() {
   useEffect(()=>{
     const fetchWeatherData = async () =>{
       const response = await fetch(
-       ` https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Washington?unitGroup=us&key=TED9BQVC6MKJTB6MT9EXFSJN5&contentType=json`
+       `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Washington?unitGroup=us&key=TED9BQVC6MKJTB6MT9EXFSJN5&contentType=json`
       )
      
       const json = await response.json()
