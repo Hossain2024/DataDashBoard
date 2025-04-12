@@ -3,9 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
 import './App.css'
+
 import Card from  './Components/Card.jsx'
 import SearchBar from './Components/searchbar.jsx'
 import FilterBar from './Components/Filter.jsx';
+import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Detail from  './Components/Detail.jsx'
+
+
 
 function App() {
   const API_KEY = import.meta.env.VITE_APP_API_KEY;
@@ -41,6 +47,12 @@ function App() {
   const handleFilter = (filtered) => {
     setFilteredList(filtered);
   };
+
+  const handleDashboardClick = () => {
+    if (list) {
+      setFilteredList(list.days); // resets to full data
+    }
+  };
   return (
       <div className= "app-container">
         {/* card */}
@@ -61,6 +73,7 @@ function App() {
                   <th>Temperature</th>
                   <th>Humidity</th>
                   <th>Windspeed</th>
+                  <th>Link</th>
                 </tr>
               </thead>
               <tbody>
@@ -70,6 +83,9 @@ function App() {
                 <td>{day.temp}°F</td>
                 <td>{day.humidity}%</td>
                 <td>{day.windspeed} mph</td>
+                <td>
+                <Link to={`/detail/${day.datetime}`} state={day}>View Details</Link>
+                </td>
               </tr>
             ))}
               </tbody>
@@ -78,6 +94,9 @@ function App() {
 
         <div className = "navigation-panel">
         <div className = "header"> <h1>Tempo</h1></div>
+        <div className = "sidebar">
+        <button className="button" onClick={handleDashboardClick}>Dashboard</button>
+        </div>
         </div>     
         
 
