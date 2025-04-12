@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://www.loom.com/share/d3bccec7513d41b0962f13eed663107a?sid=13527f07-934b-4b53-97ae-c2029d31b4ce
+https://www.loom.com/share/051eb2cf6d264b1f84ea481d8cfc3bd4?sid=6ef3c33a-467c-4fc3-999d-608878b1453f
 
 
 <!-- Replace this with whatever GIF tool you used! -->

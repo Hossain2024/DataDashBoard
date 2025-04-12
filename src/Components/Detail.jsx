@@ -26,6 +26,7 @@ const DetailView = () => {
       <p><strong>Temperature:</strong> {data.temp}°F</p>
       <p><strong>Humidity:</strong> {data.humidity}%</p>
       <p><strong>Windspeed:</strong> {data.windspeed} mph</p>
+      <p><strong>visibility:</strong> {data.visibility} mph</p>
     </div>
   );
 };
